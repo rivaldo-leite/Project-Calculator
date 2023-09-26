@@ -1,0 +1,87 @@
+body {
+    background-color: antiquewhite;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.display {
+    background-color: cornflowerblue;
+    width: 246px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid rebeccapurple;
+    align-items: flex-end;
+    font-size: 30px;
+    padding-right: 4px;
+}
+
+.container-buttons {
+    width: 250px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border: 2px solid rebeccapurple;
+    border-top: 0px;
+    
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    height: 201.6px;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    
+}
+
+.firstRow,
+.secondRow,
+.thirdRow,
+.fourthRow,
+.fifthRow {
+    display: flex;
+    width: 250px;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.firstRow button,
+.secondRow button,
+.thirdRow button,
+.fourthRow button,
+.fifthRow button {
+    width: 62.5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#clear-button {
+    width: 187px;
+}
+
+#zero-button {
+    width: 187px;
+}
